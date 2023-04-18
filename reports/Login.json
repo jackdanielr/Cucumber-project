@@ -1,0 +1,51 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-18T06:00:23.216Z",
+        "line": 3,
+        "name": "Launch the facebook loginpage",
+        "description": "",
+        "id": "loginpage;launch-the-facebook-loginpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Launch the chrome browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Navigate to the login page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Validate the user landed in homepage",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginPage",
+    "description": "",
+    "id": "loginpage",
+    "keyword": "Feature",
+    "uri": "file:src/FeatureFile/LoginPage.feature",
+    "tags": []
+  }
+]
